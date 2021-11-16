@@ -16,6 +16,16 @@
 		2C1132402744589E00681457 /* Grocery_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11323F2744589E00681457 /* Grocery_ManagerTests.swift */; };
 		2C11324A2744589E00681457 /* Grocery_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1132492744589E00681457 /* Grocery_ManagerUITests.swift */; };
 		2C11324C2744589E00681457 /* Grocery_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11324B2744589E00681457 /* Grocery_ManagerUITestsLaunchTests.swift */; };
+		2C11325B274458D100681457 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11325A274458D100681457 /* Extensions.swift */; };
+		2C11325D2744594A00681457 /* GrocerySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11325C2744594A00681457 /* GrocerySelectionViewController.swift */; };
+		2C11325F2744597300681457 /* GroceryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11325E2744597300681457 /* GroceryListViewController.swift */; };
+		2C1132612744599600681457 /* EditGroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1132602744599600681457 /* EditGroceryViewController.swift */; };
+		2C113263274459B500681457 /* ExpenditureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C113262274459B500681457 /* ExpenditureViewController.swift */; };
+		2C113265274459D200681457 /* AddGroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C113264274459D200681457 /* AddGroceryViewController.swift */; };
+		2C11326827445A1C00681457 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11326627445A1C00681457 /* ListTableViewCell.swift */; };
+		2C11326927445A1C00681457 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C11326727445A1C00681457 /* ListTableViewCell.xib */; };
+		2C11326C27445A3300681457 /* groceryCountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11326A27445A3300681457 /* groceryCountCell.swift */; };
+		2C11326D27445A3300681457 /* groceryCountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C11326B27445A3300681457 /* groceryCountCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		2C1132452744589E00681457 /* Grocery ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grocery ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1132492744589E00681457 /* Grocery_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_ManagerUITests.swift; sourceTree = "<group>"; };
 		2C11324B2744589E00681457 /* Grocery_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C11325A274458D100681457 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2C11325C2744594A00681457 /* GrocerySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySelectionViewController.swift; sourceTree = "<group>"; };
+		2C11325E2744597300681457 /* GroceryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListViewController.swift; sourceTree = "<group>"; };
+		2C1132602744599600681457 /* EditGroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroceryViewController.swift; sourceTree = "<group>"; };
+		2C113262274459B500681457 /* ExpenditureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenditureViewController.swift; sourceTree = "<group>"; };
+		2C113264274459D200681457 /* AddGroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroceryViewController.swift; sourceTree = "<group>"; };
+		2C11326627445A1C00681457 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		2C11326727445A1C00681457 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		2C11326A27445A3300681457 /* groceryCountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groceryCountCell.swift; sourceTree = "<group>"; };
+		2C11326B27445A3300681457 /* groceryCountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = groceryCountCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				2C1132282744589B00681457 /* AppDelegate.swift */,
+				2C11325A274458D100681457 /* Extensions.swift */,
 				2C11322A2744589B00681457 /* SceneDelegate.swift */,
 				2C11322C2744589B00681457 /* ViewController.swift */,
+				2C113259274458BC00681457 /* Cells */,
+				2C113258274458B300681457 /* Controllers */,
 				2C11322E2744589B00681457 /* Main.storyboard */,
 				2C1132312744589D00681457 /* Assets.xcassets */,
 				2C1132332744589D00681457 /* LaunchScreen.storyboard */,
@@ -125,6 +148,29 @@
 				2C11324B2744589E00681457 /* Grocery_ManagerUITestsLaunchTests.swift */,
 			);
 			path = "Grocery ManagerUITests";
+			sourceTree = "<group>";
+		};
+		2C113258274458B300681457 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C11325C2744594A00681457 /* GrocerySelectionViewController.swift */,
+				2C11325E2744597300681457 /* GroceryListViewController.swift */,
+				2C1132602744599600681457 /* EditGroceryViewController.swift */,
+				2C113262274459B500681457 /* ExpenditureViewController.swift */,
+				2C113264274459D200681457 /* AddGroceryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C113259274458BC00681457 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C11326627445A1C00681457 /* ListTableViewCell.swift */,
+				2C11326727445A1C00681457 /* ListTableViewCell.xib */,
+				2C11326A27445A3300681457 /* groceryCountCell.swift */,
+				2C11326B27445A3300681457 /* groceryCountCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C1132352744589D00681457 /* LaunchScreen.storyboard in Resources */,
+				2C11326927445A1C00681457 /* ListTableViewCell.xib in Resources */,
 				2C1132322744589D00681457 /* Assets.xcassets in Resources */,
+				2C11326D27445A3300681457 /* groceryCountCell.xib in Resources */,
 				2C1132302744589B00681457 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1132612744599600681457 /* EditGroceryViewController.swift in Sources */,
+				2C11325D2744594A00681457 /* GrocerySelectionViewController.swift in Sources */,
 				2C11322D2744589B00681457 /* ViewController.swift in Sources */,
+				2C113265274459D200681457 /* AddGroceryViewController.swift in Sources */,
+				2C11325F2744597300681457 /* GroceryListViewController.swift in Sources */,
 				2C1132292744589B00681457 /* AppDelegate.swift in Sources */,
 				2C11322B2744589B00681457 /* SceneDelegate.swift in Sources */,
+				2C113263274459B500681457 /* ExpenditureViewController.swift in Sources */,
+				2C11325B274458D100681457 /* Extensions.swift in Sources */,
+				2C11326827445A1C00681457 /* ListTableViewCell.swift in Sources */,
+				2C11326C27445A3300681457 /* groceryCountCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
